@@ -8,7 +8,6 @@ function onOpen() {
 function createTemplate() {
   var ss = SpreadsheetApp.getActiveSpreadsheet();
   var me = Session.getEffectiveUser()
-//  var protection = ss.protect().setDescription('Nome do Intervalo bloqueado');
 
   
   
